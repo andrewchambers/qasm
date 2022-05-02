@@ -1,4 +1,3 @@
-
 .text
 .weak add
 .qbe
@@ -23,4 +22,4 @@ main:
 
 .data
 fmt:
-	.ascii  "one and one make %d!\n"
+	.asciz  "one and one make %d!\n"
