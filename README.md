@@ -3,9 +3,12 @@
 Proof of concept high level assembler based on qbe.
 
 In some ways it is more flexible than the original qbe as you
-can freely mix assembly, assembly directives and qbe code.
+assembly directives and qbe code. You are easily able to make use
+of assembler features qbe doesn't know about. It is even forward
+compatible with new assemblers/platforms with zero code.
 
-In this model it is also possible to remove many concepts from qbe (like data statements and most attributes).
+Perhaps the biggest downside is the frontend or linker must perform
+function inlining (but qbe doesn't currently have inlining so this makes no difference).
 
 ## Example
 ```
