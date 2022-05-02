@@ -1,5 +1,6 @@
 
 .text
+.weak add
 .qbe
 function w $add(w %a, w %b) {
 @start

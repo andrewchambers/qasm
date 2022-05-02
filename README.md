@@ -2,8 +2,8 @@
 
 Proof of concept high level assembler based on qbe.
 
-In some ways it is more flexible than the original qbe as you
-assembly directives and qbe code. You are easily able to make use
+In some ways it is more flexible than the original qbe as you can
+assembly directives and qbe code - You are easily able to make use
 of assembler features qbe doesn't know about. It is even forward
 compatible with new assemblers/platforms with zero code.
 
@@ -13,6 +13,7 @@ function inlining (but qbe doesn't currently have inlining so this makes no diff
 ## Example
 ```
 .text
+.weak add
 .qbe
 function w $add(w %a, w %b) {
 @start
