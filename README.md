@@ -5,6 +5,8 @@ Proof of concept high level assembler based on qbe.
 In some ways it is more flexible than the original qbe as you
 can freely mix assembly, assembly directives and qbe code.
 
+In this model it is also possible to remove many concepts from qbe (like data statements and most attributes).
+
 ## Example
 ```
 .text
